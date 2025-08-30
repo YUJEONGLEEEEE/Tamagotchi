@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		785F5CE72E62A4F600FF195C /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 785F5CE62E62A4F600FF195C /* LICENSE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		785F5CCE2E629D9700FF195C /* Tamagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		785F5CE62E62A4F600FF195C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		785F5CC52E629D9700FF195C = {
 			isa = PBXGroup;
 			children = (
+				785F5CE62E62A4F600FF195C /* LICENSE.md */,
 				785F5CD02E629D9700FF195C /* Tamagotchi */,
 				785F5CCF2E629D9700FF195C /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785F5CE72E62A4F600FF195C /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
